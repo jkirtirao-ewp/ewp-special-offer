@@ -1,0 +1,810 @@
+/* .specialOffer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+#specialOffer .topBanner {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 100px 150px;
+    min-height: 80vh;
+    /* border: 1px solid black; */
+}
+
+#specialOffer .topBanner .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    height: 100%;
+    /* border: 1px solid black; */
+    width: 45%;
+}
+
+#specialOffer .topBanner .left div:nth-child(1) h1 {
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+#specialOffer .topBanner .left div:nth-child(1) h4 {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 30px 50px 0;
+    color: rgb(7, 7, 118);
+}
+
+#specialOffer .topBanner .left div:nth-child(2) {
+    margin: 30px 0;
+}
+
+#specialOffer .topBanner .left div:nth-child(2) h1 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #090909;
+    padding-bottom: 10px;
+}
+
+#specialOffer .topBanner .left div:nth-child(2) h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding-bottom: 8px;
+    color: #FFB900;
+}
+
+#specialOffer .topBanner .left div:nth-child(3) h2 {
+    font-size: 25px;
+    padding-top: 4px;
+    color: rgb(64, 64, 228);
+}
+
+#specialOffer .topBanner .right {
+    width: 55%;
+    height: 100%;
+}
+
+/* #specialOffer .topBanner .right form {
+    width: 630px;
+    height: 500px;
+    border: 2px solid #FFB900;
+    border-radius: 20px;
+} */
+
+
+#specialOffer .commendation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#specialOffer .commendation h1 {
+    margin: 30px;
+}
+
+#specialOffer .commendation .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 250px;
+    height: 70vh;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.448),
+                0px -1px 10px rgba(128, 128, 128, 0.448);
+}
+
+#specialOffer .commendation .main .left {
+    position: relative;
+    padding: 50px;
+    align-self: flex-start;
+}
+
+#specialOffer .commendation .main .right {
+    padding: 25px 50px 25px 25px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#specialOffer .commendation .main .right p {
+    font-size: 15px;
+    /* line-height: 0.1rem; */
+    letter-spacing: 0.01rem;
+    margin-bottom: 16px;
+}
+
+#specialOffer .commendation .main .right .credentials {
+    width: 100%;
+    margin-top: auto;
+}
+
+#specialOffer .commendation .main .right .credentials .hr {
+    width: 100%;
+    height: 2px;
+    background-color: #FFB900;
+}
+
+#specialOffer .commendation .main .right .credentials h3 {
+    margin: 10px 20px 5px;
+    text-align: right;
+    color: rgb(7, 7, 126);
+}
+
+#specialOffer .commendation .main .right .credentials h5 {
+    margin: 0 20px 0;
+    text-align: right;
+    color: rgb(1, 1, 13);
+    font-weight: 300;
+}
+
+
+#specialOffer .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 50px;
+    /* border: 1px solid black; */
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+    box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.448),
+                0px -1px 10px rgba(128, 128, 128, 0.448);
+}
+
+#specialOffer .services .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#specialOffer .services .top h1 {
+    text-align: center;
+    /* font-size: 30px; */
+    margin: 40px;
+}
+
+#specialOffer .services .top p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    padding: 5px 90px;
+}
+
+#specialOffer .services .bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 80%;
+}
+
+#specialOffer .services .bottom .service {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    width: 170px;
+    /* padding: 0 5px; */
+    /* border: 1px solid black; */
+}
+
+#specialOffer .services .bottom .service .icon {
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding: 20px 25px 15px;
+    border-radius: 100px;
+    background-color: #FFB900;
+    color: #090909;
+    /* filter: drop-shadow(0px 5px 10px rgba(128, 128, 128, 0.448)); */
+}
+
+#specialOffer .services .bottom .service span {
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 0 10px;
+    color: rgb(7, 7, 126);
+}
+
+
+
+
+#specialOffer .start {
+    margin: 80px 250px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#specialOffer .start .left {
+    padding: 40px;
+    position: relative;
+}
+
+#specialOffer .start .left .circle {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+#specialOffer .start .left .sideCircle {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 1px solid grey;
+    z-index: 1;
+    filter: drop-shadow(0px 0px 5px rgb(128, 128, 128)),
+        inset drop-shadow(0px 0px 5px rgb(128, 128, 128));
+}
+
+#specialOffer .start .left .outerCircle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 1px solid grey;
+    z-index: 2;
+    background-color: white;
+
+}
+
+#specialOffer .start .left .innerCircle {
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 280px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: 1px solid grey;
+    z-index: 3;
+    /* background-color: red; */
+    
+    filter: drop-shadow(0px 0px 5px rgb(128, 128, 128)),
+        inset drop-shadow(0px 0px 5px rgb(128, 128, 128));
+}
+
+
+#specialOffer .start .right ul {
+    padding: 20px 40px 0px 0px;
+}
+
+#specialOffer .start .right ul li {
+    padding: 10px;
+}
+
+#specialOffer .start .right button {
+    margin: 20px 0 0 10px;
+    background-color: #FFB900;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 50px;
+    box-shadow: 1px 3px 10px #ccc;
+}
+
+#specialOffer .start .right .faq-btn {
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color: #FFB900;
+    /* transition: var(--transition); */
+    transition: all 0.3s linear;
+}
+
+.f-align-f-start {
+    align-items: flex-start;
+}
+
+#specialOffer .faq-s {
+    margin-top: 120px;
+}
+
+#specialOffer .faq-s .left div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    border-radius: 100%;
+    color: white;
+    background-color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    #specialOffer .topBanner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 40px 80px;
+        min-height: 80vh;
+        /* border: 1px solid black; */
+    }
+
+    #specialOffer .topBanner .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: space-between;
+        height: 100%;
+        /* border: 1px solid black; */
+        width: 100%;
+        padding-left: 20px;
+    }
+    
+    #specialOffer .topBanner .left div:nth-child(1) h1 {
+        font-size: 25px;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+    
+    #specialOffer .topBanner .left div:nth-child(1) h4 {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 0px;
+        color: rgb(7, 7, 118);
+    }
+    
+    #specialOffer .topBanner .left div:nth-child(2) {
+        margin: 30px 0;
+    }
+    
+    #specialOffer .topBanner .left div:nth-child(2) h1 {
+        font-size: 25px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        color: #090909;
+        padding-bottom: 10px;
+    }
+    
+    #specialOffer .topBanner .left div:nth-child(2) h2 {
+        font-size: 25px;
+        letter-spacing: 1px;
+        font-weight: 500;
+        padding-bottom: 8px;
+        color: #FFB900;
+    }
+    
+    #specialOffer .topBanner .left div:nth-child(3) h2 {
+        font-size: 25px;
+        padding-top: 4px;
+        color: rgb(64, 64, 228);
+    }
+    
+    #specialOffer .topBanner .right {
+        width: 55%;
+        height: 100%;
+    }
+
+    #specialOffer .commendation h1 {
+        margin: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #specialOffer .commendation .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0 50px;
+        height: auto;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #specialOffer .commendation .main .left {
+        padding: 20px;
+    }
+
+    #specialOffer .commendation .main .left img {
+        width: auto;
+        height: 200px;
+    }
+
+    #specialOffer .commendation .main .right {
+        height: auto;
+    }
+
+    #specialOffer .services {
+        margin: 30px 0 0;
+        padding: 15px 30px;
+
+    }
+
+    #specialOffer .services .top h1 {
+        margin: 20px;
+    }
+
+
+    #specialOffer .services .top p {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 8px;
+        padding: 5px 0px;
+    }
+
+    #specialOffer .services .bottom {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center; */
+        width: 100%;
+        margin: 0 5px;
+    }
+        
+    #specialOffer .services .bottom .service {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        width: 170px;
+        /* padding: 0 5px; */
+        /* border: 1px solid black; */
+        margin-bottom: 8px;
+    }
+    
+
+
+
+
+
+        
+    #specialOffer .start {
+        margin: 80px 10px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #specialOffer .start .left {
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+
+    #specialOffer .start .left .circle {
+        position: relative;
+        width: 100%;
+        height: 100px;
+
+    }
+
+    #specialOffer .start .left .sideCircle {
+        display: none;
+    }
+
+    #specialOffer .start .left .outerCircle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100px;
+        border-radius: 20px;
+    }
+
+    #specialOffer .start .left .innerCircle {
+        font-size: 20px;
+        width: 93%;
+        height: 80px;
+        border-radius: 20px;
+        padding: 10px;
+        box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.448),
+                0px -1px 10px rgba(128, 128, 128, 0.448);
+    }
+
+
+    #specialOffer .start .right ul {
+        padding: 30px;
+    }
+
+    #specialOffer .start .right ul li {
+        padding: 10px;
+    }
+
+    #specialOffer .start .right button {
+        margin: 0;
+        background-color: #FFB900;
+        padding: 10px 15px;
+        font-size: 15px;
+        color: #fff;
+        border: 2px solid white;
+        border-radius: 50px;
+        box-shadow: 1px 3px 10px #ccc;
+    }
+
+    #specialOffer .start .right .faq-btn {
+        font-size: 1.5rem;
+        background: transparent;
+        border-color: transparent;
+        cursor: pointer;
+        color: #FFB900;
+        /* transition: var(--transition); */
+        transition: all 0.3s linear;
+    }
+
+    /* #specialOffer .faq-s .left {
+        width: 100%;
+    } */
+
+    #specialOffer .faq-s .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #specialOffer .faq-s .left img {
+        height: auto;
+        width: 200px;
+        margin: auto;
+    }
+
+    #specialOffer .faq-s .left div {
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        width: 100px;
+        height: 100px;
+        font-size: 15px;
+        border-radius: 100%;
+        color: white;
+        background-color: red;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    #specialOffer .topBanner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 40px 20px;
+        min-height: 80vh;
+        /* border: 1px solid black; */
+    }
+
+    #specialOffer .topBanner .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: space-between;
+        height: 100%;
+        /* border: 1px solid black; */
+        width: 80%;
+    }
+
+    #specialOffer .topBanner .right {
+        width: 90%;
+        height: 100%;
+    }
+
+    #specialOffer .commendation h1 {
+        margin: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    #specialOffer .commendation .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0 50px;
+        height: auto;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    #specialOffer .commendation .main .left {
+        padding: 20px;
+    }
+
+    #specialOffer .commendation .main .left img {
+        width: auto;
+        height: 200px;
+    }
+
+    #specialOffer .commendation .main .right {
+        height: auto;
+    }
+
+    #specialOffer .services {
+        margin: 30px 0 0;
+        padding: 15px 30px;
+
+    }
+
+    #specialOffer .services .top h1 {
+        margin: 20px;
+    }
+
+
+    #specialOffer .services .top p {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 8px;
+        padding: 5px 0px;
+    }
+
+    #specialOffer .services .bottom {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center; */
+        width: 100%;
+        margin: 0 5px;
+    }
+        
+    #specialOffer .services .bottom .service {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        align-items: center;
+        width: 170px;
+        /* padding: 0 5px; */
+        /* border: 1px solid black; */
+        margin-bottom: 8px;
+    }
+    
+
+
+
+
+
+        
+    #specialOffer .start {
+        margin: 80px 10px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #specialOffer .start .left {
+        padding: 0px;
+        position: relative;
+        width: 100%;
+    }
+
+    #specialOffer .start .left .circle {
+        position: relative;
+        width: 100%;
+        height: 100px;
+
+    }
+
+    #specialOffer .start .left .sideCircle {
+        display: none;
+    }
+
+    #specialOffer .start .left .outerCircle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100px;
+        border-radius: 20px;
+    }
+
+    #specialOffer .start .left .innerCircle {
+        font-size: 20px;
+        width: 93%;
+        height: 80px;
+        border-radius: 20px;
+        padding: 10px;
+        box-shadow: 0px 5px 10px rgba(128, 128, 128, 0.448),
+                0px -1px 10px rgba(128, 128, 128, 0.448);
+    }
+
+
+    #specialOffer .start .right ul {
+        padding: 30px;
+    }
+
+    #specialOffer .start .right ul li {
+        padding: 10px;
+    }
+
+    #specialOffer .start .right button {
+        margin: 0;
+        background-color: #FFB900;
+        padding: 10px 15px;
+        font-size: 15px;
+        color: #fff;
+        border: 2px solid white;
+        border-radius: 50px;
+        box-shadow: 1px 3px 10px #ccc;
+    }
+
+    #specialOffer .start .right .faq-btn {
+        font-size: 1.5rem;
+        background: transparent;
+        border-color: transparent;
+        cursor: pointer;
+        color: #FFB900;
+        /* transition: var(--transition); */
+        transition: all 0.3s linear;
+    }
+
+    /* #specialOffer .faq-s .left {
+        width: 100%;
+    } */
+
+    #specialOffer .faq-s .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #specialOffer .faq-s .left img {
+        height: auto;
+        width: 200px;
+        margin: auto;
+    }
+
+    #specialOffer .faq-s .left div {
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        width: 100px;
+        height: 100px;
+        font-size: 15px;
+        border-radius: 100%;
+        color: white;
+        background-color: red;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
